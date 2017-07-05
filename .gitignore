@@ -1,19 +1,20 @@
 # Ignore everything
-*
+#*
 
 # Don't ignore directories, so we can recurse into them
-!*/
+#!*/
 
 # Don't ignore .gitignore
-!.gitignore
-!.ipynb
-!.py
+#!.gitignore
+#!.ipynb
+#!.py
 
 # Now exclude our type
-!.ipynb_checkpoints
-!.tmp
-!.pdf
-!.pyc
-!.deps
+!*.ipynb_checkpoints
+!*.tmp
+!*.pdf
+!*.pyc
+!*.deps
 !.csv
-!__pycache__
+!*__pycache__
+!*.DS_Store
