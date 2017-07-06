@@ -222,6 +222,17 @@ def msd_by_age(age):
     var_df=pd.DataFrame(np.transpose([np.arange(0,len(df_y))/5,variance]),columns=["time","variance"])
     var_df.to_csv("../results/msd_age-{}.csv".format(age))
 
+def msd_by_temp(temperature):
+    sample_dir=pathlib.Path('../data/temperature/{}'.format(temperature))
+    tracks=[i for i in sample_dir.glob('*')]
+    
+    df_x,df_y=read_tracks(tracks)
+        
+    variance=msd(df_x,df_y)
+    
+    var_df=pd.DataFrame(np.transpose([np.arange(0,len(df_y))/5,variance]),columns=["time","variance"])
+    var_df.to_csv("../results/msd_temperature-{}.csv".format(temperature))
+
 def read_dataset(dataset,label):
     """label can be age or temperature, this is, 1,2,3,4,5,6 or 15,20,25"""
     if dataset=="age":
