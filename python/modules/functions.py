@@ -357,9 +357,9 @@ def fractal_plot(r, N, A, Df, drop_first_points, drop_last_points,
     ax.set_yscale('log')
     plt.xlabel('Box size, 1/s')
     plt.ylabel('Number of boxes, N(s)')
-    increase_font(ax, 18)
+    increase_font(ax, 20)
     plt.savefig(
-        "../results/fractal_dimension.pdf",
+        "../figures/fractal_dimension.pdf",
         bbox_inches='tight')
     plt.show()
 
