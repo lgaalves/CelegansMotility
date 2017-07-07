@@ -10,11 +10,3 @@
 !.py
 
 # Now exclude our type
-!.ipynb_checkpoints
-!.tmp
-!.pdf
-!.pyc
-!.deps
-!.csv
-!__pycache__
-!.DS_Store
