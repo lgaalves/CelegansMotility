@@ -1,12 +1,7 @@
-# Ignore everything
-#*
-
-# Don't ignore directories, so we can recurse into them
-!/
-
-# Don't ignore .gitignore
-!.gitignore
-!.ipynb
-!.py
-
-# Now exclude our type
+__pycache__/
+python/.DS_Store
+.DS_Store
+python/.ipynb_checkpoints/
+python/dfa.ipynb
+python/fd.ipynb
+python/msd.ipynb
