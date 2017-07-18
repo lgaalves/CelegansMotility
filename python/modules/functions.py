@@ -316,8 +316,7 @@ def fit_data(r, N):
 
     """
 
-    Df, A, r_value, p_value, std_err = stats.linregress(
-        np.log(1 / r), np.log(N))
+    Df, A, r_value, p_value, std_err = stats.linregress(np.log(1 / r), np.log(N))
 
     return Df, A, r_value**2, p_value, std_err
 
