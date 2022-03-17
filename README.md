@@ -16,7 +16,8 @@ Reduced motor control is one of the most frequent features associated with aging
 - python -- python notebooks, scripts and modules
 - c -- DFA source code in C and Makefile
 - paper_figs -- folder with figures of our manuscript
-- data -- data set of worm trajectories (see data availability below)
+- data -- data sets of worm trajectories (see data availability below)
+- results -- folder to save results after running data analysis
 
 ## Data availability
 
