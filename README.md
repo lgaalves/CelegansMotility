@@ -24,5 +24,5 @@ Reduced motor control is one of the most frequent features associated with aging
 Please contact me if you need the data used in this paper. 
 
 
-# References
+# Reference
 Luiz G. A. Alves, Peter B. Winter, Leonardo N. Ferreira, Renée M. Brielmann, Richard I. Morimoto, Luís A. N. Amaral, Long-range correlations and fractal dynamics in C. elegans: changes with aging and stress. [Physical Review E 96, 022417](https://lgaalves.github.io/publications/2017-pre-celegans.pdf)
